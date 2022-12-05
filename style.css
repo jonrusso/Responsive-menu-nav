@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 107px;
+  height: 39px;
+  left: calc(50% - 127px / 2 + 602px);
+  top: calc(50% - 39px / 2 - 143.5px);
+
+  color: #ffffff;
+  background: #5bc241;
+  border-radius: 10px;
+}
+
+.button.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 107px;
+  height: 39px;
+
+  color: #ffffff;
+  background: #576fe8;
+}
+
+@media(max-width: 636px){
+    .logo {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;  
+    }
+
+    .menu{
+        display: block;
+        margin-top: 30px;
+    }
+
+    .menu li {
+        margin-left: 0;
+        padding-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+        
+}
